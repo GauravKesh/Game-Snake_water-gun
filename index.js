@@ -51,7 +51,7 @@ function P1Func(Player1,Player2,score1,score2){
 }
 
 alert("Hey Guys welcome to my first game !!\n\t \n it's 2 player game .\nThis is a snake water gun  game  .\n In last total score will be  shown\n READ THE INSTRUCTIONS CAREFULLY  \n you will have 10 match \n ");
-
+var NoOfMatch = parseInt(("How many times do you want to play this game \n{MINIMUM MATCH-5}:-"));
 var UserConfirm = confirm("Proceed\n\t********GOOD LUCK*********");
 var i =0;
 var p1arr = []
@@ -59,7 +59,7 @@ var p2arr = []
 var score1 = 0; // score of player 1
 var score2 = 0; // score of player 2
 
-while(i<5){
+while(i=<NoOfMatch){
     var Player1 = prompt(
         `PLAYER1 ==>> Choose "s" for SNAKE, "w" for WATER, or "g" for GUN: (Match ${i + 1})`
       ).toLowerCase();
