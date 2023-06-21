@@ -1,3 +1,4 @@
+
 function P1Func(Player1,Player2,score1,score2){
 
     if (Player1 == "s" && Player2 == "s"){
