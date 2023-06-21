@@ -40,30 +40,14 @@ body {
   }
 }
 
-/* .waviy1 {
-  position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-  font-size: 60px;
-}
-.waviy1 span {
-  font-family: 'Alfa Slab One', cursive;
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
-  animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
-  
-}
-@keyframes waviy1 {
-  0%,40%,100% {
-    transform: translateY(0)  ;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-}
-  20% {
-    transform: translateY(-20px)
+@media (min-width: 768px) {
+  .waivy{
+    font-size: 30px;
   }
-} */
+}
+@media (min-width: 480px) {
+  .waivy{
+    font-size: 20px;
+  }
+}
+  
